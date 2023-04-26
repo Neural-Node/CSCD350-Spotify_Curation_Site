@@ -11,3 +11,5 @@ has their own knowledge other than common knowledge about software engineering. 
 part that they are most confident in the project. Team work will combine and be checked by the group leader at 
 the end of every week, and the leader is going to check the team every day to make sure everyone is on the same 
 page. Therefore, it is going to be ready to use in a reasonable time.
+
+View our webpage here: https://neural-node.github.io/CSCD350-Spotify_Curation_Site/
