@@ -1,0 +1,10 @@
+
+:root{
+    --spotifyBlack: rgba(25,20,20,255);
+    --spotifyGreen: rgba(29,185,84,255);
+}
+
+body {
+    background-color: var(--spotifyBlack);
+    color: white;
+}
