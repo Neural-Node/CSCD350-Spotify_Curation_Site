@@ -8,3 +8,8 @@ body {
     background-color: var(--spotifyBlack);
     color: white;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
