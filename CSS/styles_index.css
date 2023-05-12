@@ -1,0 +1,47 @@
+
+:root{
+    --spotifyBlack: rgba(25,20,20,255);
+    --spotifyGreen: rgba(31,187,86,255);
+    --DarkGreen: rgba(5, 52, 37);
+}
+
+body {
+    background-color: var(--spotifyBlack);
+    color: white;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+nav {
+    background-color: darkgreen;
+}
+
+
+nav a {
+    display: inline;
+    margin-right: 10%;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 50px;
+    transition: background-color 0.2s ease-in-out;
+}
+nav li {
+    display: inline;
+    width: auto;
+    float: right;
+    padding: 20px;
+    padding-right: 5%;
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+}
+
+
