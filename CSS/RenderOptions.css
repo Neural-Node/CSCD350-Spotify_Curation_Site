@@ -1,0 +1,35 @@
+:root{
+    --spotifyBlack: rgba(25,20,20,255);
+    --spotifyGreen: rgba(31,187,86,255);
+    --DarkGreen: rgba(5, 52, 37);
+}
+
+.buttons {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 45%;
+}
+
+.dropdown{
+
+}
+
+.SlideBar{
+    width: 100%;
+}
+
+.Slide{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 15px; /* Specified height */
+    background: rgb(2, 250, 43);
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+.Slide:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
