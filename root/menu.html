@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="/root/styles_index.css" rel="stylesheet">
+    <link href="/CSS/navbar.css" rel="stylesheet">
+    <link href="/CSS/RenderOptions.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Sound Sensei</title>
 </head>
 <body>
     <div class="navbar">
-        <img src="../images/SS_Logo_Small.png" alt="Sound Sensei logo">
-        <a href="../index.html">Log out</a>
-        <a href="menu.html">Home</a>
+        <img class="App-logo" src="../Documentation/images/SS_Logo_Small.png" alt="Sound Sensei logo">
+        <p class="title">Sound Sensei</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Log~out</a></li>
+                <li><a href="menu.html">Home</a></li>
+            </ul>
+        </nav>
     </div>
     <div class="buttons">
-        <div class="dropdown">
-            <button>Mood</button>
-            <div class="content">
-                <button type="submit">Happy</button>
-                <button type="submit">Sad</button>
-            </div>
+        <div class="SlideBar">
+            <p>Mood / Energy Level</p>
+            <input type="range" min="0" max="10" value="5" class="Slide">
         </div>
         <div class="dropdown">
             <button>Genre</button>
@@ -29,6 +32,6 @@
     </div>
 </body>
 <footer>
-    <img src="/images/SoftwareSamurai.png" alt="Software Samurai logo">
+    <img src="/Documentation/images/SoftwareSamurai.png" alt="Software Samurai logo">
 </footer>
 </html>
