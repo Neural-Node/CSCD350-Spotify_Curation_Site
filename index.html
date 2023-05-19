@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="../CSS/navbar.css" rel="stylesheet">
+    <link href="CSS/navbar.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Sound Sensei</title>
 </head>
 <body>
     <div class="navbar">
-        <img src="../Documentation/images/SS_Logo_Small.png" alt="Sound Sensei logo">
+        <img src="Documentation/images/SS_Logo_Small.png" alt="Sound Sensei logo">
     </div>
-    <form class="login" method="post">
+
+    <!--<form class="login" method="post">
         <label for="uname" id="username">Username</label>
         <input type="text" id="uname" placeholder="Username">
 
         <label for="pass" id="password">Password</label>
         <input type="password" id="pass" placeholder="Password">
         <button type="submit">Sign In</button>
-    </form>
+    </form>-->
 
+    <br><br><br><br><br><br><br><br><br>
 
+    <button onclick="loginWithSpotify()">Login with Spotify</button>
+    <script>
+        <!-- These are stubbed out for now. I am still trying to figure out what our client ID is! 5/19-->
+        function loginWithSpotify(){
+            var client_id = 'YOUR_CLIENT_ID';
+            var redirect_uri = 'YOUR_REDIRECT_URI';
+            var scope ='user-read-private user-read-email'; //add additional scope as needed
+
+            //Construct the authorization URL
+            authUrl += 'https://accounts.spotify.com/authorize';
+            authUrl += '?response_type=token';
+            authUrl += '&client_id' + encodeURIComponent(client_id);
+            authUrl += '&redirect_uri=' + encodeURIComponent(redirect_uri);
+            authUrl += '&scope=' + encodeURIComponent(scope);
+
+            //Redirect the user to the authorization URL
+            window.location.href = authUrl;
+        }
+    </script>
 </body>
 <footer>
-    <img src="../Documentation/images/SoftwareSamurai.png" alt="Software Samurai logo">
+    <img src="Documentation/images/SoftwareSamurai.png" alt="Software Samurai logo">
 </footer>
 </html>
