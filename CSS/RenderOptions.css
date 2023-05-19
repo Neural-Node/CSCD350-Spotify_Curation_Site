@@ -1,0 +1,50 @@
+:root{
+    --spotifyBlack: rgba(25,20,20,255);
+    --spotifyGreen: rgba(31,187,86,255);
+    --DarkGreen: rgba(5, 52, 37);
+}
+
+.buttons {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 45%;
+}
+
+.dropdown{
+
+}
+
+.SlideBar{
+    width: 100%;
+}
+
+.Slide{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 15px;
+    background: rgb(2, 250, 43);
+    border-radius: 10px;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.Slide:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.Slide::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    background: url("/images/crazyface.png");
+    cursor: pointer;
+}
+.Slide::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
