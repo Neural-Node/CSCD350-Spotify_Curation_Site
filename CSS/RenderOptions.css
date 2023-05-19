@@ -39,7 +39,8 @@
     -webkit-appearance: none;
     width: 25px;
     height: 25px;
-    background: url("/images/crazyface.png");
+    /*background: url("../Documentation/images/crazyface.png");*/
+    background: aliceblue;
     cursor: pointer;
 }
 .Slide::-moz-range-thumb {

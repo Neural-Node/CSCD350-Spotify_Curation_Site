@@ -4,9 +4,15 @@
     --spotifyGreen: rgba(31,187,86,255);
     --DarkGreen: rgba(5, 52, 37);
 }
+#grad{
+ background-image: linear-gradient(forestgreen, rgba(25,20,20,255));
+}
 
 body {
-    background-color: var(--spotifyBlack);
+    background-image: linear-gradient(forestgreen, rgba(25,20,20,255));
+    min-height: 100vh;
+    margin: 0;
+    width: 100%;
     color: white;
 }
 
@@ -46,9 +52,9 @@ footer{
 
 
 .navbar{
-    background-color: darkgreen;
+    /*background-color: darkgreen;*/
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 125px;
     left: 0px;
     top: 0px;
