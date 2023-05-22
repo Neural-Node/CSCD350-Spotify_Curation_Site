@@ -41,13 +41,25 @@
     -webkit-appearance: none;
     width: 25px;
     height: 25px;
+    border-radius: 15px;
     /*background: url("../Documentation/images/crazyface.png");*/
-    background: aliceblue;
+    background: rgba(25,20,20,255);
+
     cursor: pointer;
 }
 .Slide::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #04AA6D;
+    border-radius: 15px;
+    background: rgba(25,20,20,255);
     cursor: pointer;
+}
+
+#emoji, #emoji1 {
+    height: 25px;
+}
+
+.images{
+    display: inline-block;
+    width:100%;
 }
