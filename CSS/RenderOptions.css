@@ -8,12 +8,11 @@
 
 .buttons {
     position: absolute;
-    margin-top: 10%;
-    margin-left: 45%;
+    margin-top: 13%;
+    margin-left: 40%;
 }
-
-.dropdown{
-
+.ttl {
+    margin-left: 15%;
 }
 
 .SlideBar{
@@ -23,7 +22,7 @@
 .Slide{
     -webkit-appearance: none;
     appearance: none;
-    width: 100%;
+    width: 200px;
     height: 15px;
     background: rgb(2, 250, 43);
     border-radius: 10px;
@@ -62,4 +61,21 @@
 .images{
     display: inline-block;
     width:100%;
+}
+
+.ddbtn{
+    background: rgb(2, 250, 43);
+    width: 200px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.cntnt {
+    width: 200px;
+}
+
+.dropdown{
+    margin-left: 8%;
+    position: relative;
 }
