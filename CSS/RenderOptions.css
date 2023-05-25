@@ -12,7 +12,7 @@
     margin-left: 40%;
 }
 .ttl {
-    margin-left: 15%;
+    margin-left: 23%;
 }
 
 .SlideBar{
@@ -71,11 +71,28 @@
     border: none;
 }
 
-.cntnt {
-    width: 200px;
+.dropdown{
+    margin-left: 13%;
+    position: relative;
+    display: block;
 }
 
-.dropdown{
-    margin-left: 8%;
-    position: relative;
+.content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.cntnt {
+    width: 200px;
+    display: block;
+    background: whitesmoke;
+}
+
+.content .cntnt:hover {
+    background: darkseagreen;
+}
+
+.dropdown:hover .content{
+    display: block;
 }
