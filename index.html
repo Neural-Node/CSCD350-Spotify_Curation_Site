@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <link href="CSS/navbar.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <link href="CSS/index.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Sound Sensei</title>
 </head>
 <body>
-    <div class="navbar">
-        <img src="Documentation/images/SS_Logo_Small.png" alt="Sound Sensei logo">
-    </div>
+<div class="navbar">
+    <img class="App-logo" src="../Documentation/images/SS_Logo_Small.png" alt="Sound Sensei logo">
+    <p class="title">Sound Sensei</p>
+</div>
 
     <!--<form class="login" method="post">
         <label for="uname" id="username">Username</label>
@@ -20,8 +23,10 @@
     </form>-->
 
     <br><br><br><br><br><br><br><br><br>
-
-    <button onclick="loginWithSpotify()">Login with Spotify</button>
+<div id="spotifyLogoDiv">
+    <img id="spotifyLogo" src="Documentation/images/Spotify_Logo_RGB_White.png" alt="spotify logo">
+</div>
+    <button id="spotifyLogin" onclick="loginWithSpotify()">Login with Spotify</button>
     <script>
         <!-- These are stubbed out for now. I am still trying to figure out what our client ID is! 5/19-->
         function loginWithSpotify(){
@@ -42,6 +47,7 @@
     </script>
 </body>
 <footer>
-    <img src="Documentation/images/SoftwareSamurai.png" alt="Software Samurai logo">
+    <img id="foot" src="/Documentation/images/SoftwareSamurai.png" alt="Software Samurai logo">
+    <p id="info">Website created by Software Samurai as a final project at Eastern Washington University</p>
 </footer>
 </html>

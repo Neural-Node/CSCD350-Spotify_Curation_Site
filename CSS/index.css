@@ -1,0 +1,20 @@
+#spotifyLogin {
+    margin-left: 43%;
+    margin-top: 2%;
+    background: rgb(2, 250, 43);
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+
+#spotifyLogoDiv {
+    margin-left: 46%;
+}
+
+#spotifyLogo {
+    height: 30px;
+}
+
+#spotifyLogin:hover {
+    background: darkseagreen;
+}
