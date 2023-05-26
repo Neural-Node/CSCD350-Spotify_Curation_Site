@@ -1,0 +1,11 @@
+#foot{
+    height: 30px;
+    position: absolute;
+    margin-bottom: 0;
+}
+
+#info {
+    margin-left: 200px;
+    margin-bottom: 5px;
+    color: gray;
+}
