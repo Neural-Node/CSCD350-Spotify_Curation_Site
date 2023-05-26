@@ -1,0 +1,15 @@
+.table {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 5%;
+    background: black;
+
+}
+
+.AlbumImg {
+    height: 90px
+}
+
+.SongInfo {
+    list-style-type: none;
+}
