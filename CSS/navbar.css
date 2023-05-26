@@ -81,5 +81,10 @@ nav li{
     padding-right: 5%;
 }
 
+nav a:hover {
+    background: rgb(2, 250, 43);
+    color: black;
+}
+
 
 
