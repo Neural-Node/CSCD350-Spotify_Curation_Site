@@ -42,8 +42,8 @@ async function generateCodeChallenge(codeVerifier){
 
 //Code to request User Authorization
 
-const clientID = "YOUR_CLIENT_ID";
-const redirectUri ='http:localhost:8080';
+const clientID = "37105f8a5dea4697bc0953aa8220272c";
+const redirectUri ='http://localhost:63342/CSCD350-Spotify_Curation_Site/root/menu.html?_ijt=k5detbbhsmij5qn0h6phbuuir0&_ij_reload=RELOAD_ON_SAVE';
 
 let codeVerifier = generateRandomString(128);
 
@@ -72,7 +72,7 @@ const  urlParams = new URLSearchParams(window.location.search);
 let code = urlParams.get('code');
 
 
-//Once the user has accepted the request of the previous step, we can request acces token by making
+//Once the user has accepted the request of the previous step, we can request access token by making
 // a post request to the /api/token endpoint, with code and code verifier values.
 
 let codeVerifier = localStorage.getItem('code_verifier');

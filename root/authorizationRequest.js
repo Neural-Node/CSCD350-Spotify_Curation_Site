@@ -1,6 +1,6 @@
 //Following JavaScript creates and sends an Authorization request
-var client_id = 'ClIENT_ID';
-var client_secret ='CLIENT_SECRET';
+var client_id = '37105f8a5dea4697bc0953aa8220272c';
+var client_secret ='c82bd04155fc489f9078f1c9dbfd0831';
 
 var authOptions = {
     url: 'https://.accounts.spotify.com/api/token',
