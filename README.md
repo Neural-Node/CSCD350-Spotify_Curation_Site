@@ -51,7 +51,7 @@ From here you will be taken to our homepage which contains a slider for the mood
 
 When you click the view playlist button it’ll display that playlist which was generated. From this point you may create the playlist to your spotify account. The playlist generated on our curation site will display the album art, song title, artists, song duration, and a play preview. 
 
-<img src=”https://github.com/Neural-Node/CSCD350-Spotify_Curation_Site/assets/97580466/1cbc1c18-c51a-448f-aa9f-7411de0403cb" alt=”my banner”>
+![Screenshot 2023-06-10 191450](https://github.com/Neural-Node/CSCD350-Spotify_Curation_Site/assets/97580466/1cbc1c18-c51a-448f-aa9f-7411de0403cb)
 
 On the homepage after logging in, on the top of the page, there is a button titled “Your Profile” which will take you to a new page that displays your account information in fields such as; User ID, Email, Spotify URI, the link to your Spotify profile, and your profiles image.  
 
