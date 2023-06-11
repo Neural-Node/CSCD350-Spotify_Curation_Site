@@ -47,6 +47,10 @@ How to Use the Software.
 	After the client-id and client-secret has been put into the code you can view index.html as a web page. From here you can click the Login with Spotify button to login with your Spotify account. Unfortunately, we haven’t gotten the callback to work yet so currently it will display an error message after signing in with your Spotify account. If you would like to see a hardcoded demo of what the site should look like/do feel free to pull up the code from the Hardcode-Test branch, where the buttons are just links to the other pages.
 Ideally, with full functionality, you would use the site by using your Spotify account credentials (password and email/username). 
 
+![Website Login Page](https://cdn.discordapp.com/attachments/1101196273236844645/1117277786369953832/Screenshot_2023-06-10_183751.png)
+![Spotify Login](https://cdn.discordapp.com/attachments/1101196273236844645/1117277786097332254/Screenshot_2023-06-10_183832.png)
+
+
 From here you will be taken to our homepage which contains a slider for the mood energy level. It also has the option to select by genre or top 5 artists. This will generate a playlist of suggestions based on your selection. 
 
 When you click the view playlist button it’ll display that playlist which was generated. From this point you may create the playlist to your spotify account. The playlist generated on our curation site will display the album art, song title, artists, song duration, and a play preview. 
