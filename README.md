@@ -16,7 +16,7 @@ Installation
 
 https://www.spotify.com/us/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F 
 
-	Ideally the user will have listened to enough music on the account for the Spotify API to pull data about their currently listened to music tastes.
+Ideally the user will have listened to enough music on the account for the Spotify API to pull data about their currently listened to music tastes.
 
 
 Running the Software
@@ -50,6 +50,8 @@ Ideally, with full functionality, you would use the site by using your Spotify a
 From here you will be taken to our homepage which contains a slider for the mood energy level. It also has the option to select by genre or top 5 artists. This will generate a playlist of suggestions based on your selection. 
 
 When you click the view playlist button it’ll display that playlist which was generated. From this point you may create the playlist to your spotify account. The playlist generated on our curation site will display the album art, song title, artists, song duration, and a play preview. 
+
+<img src=”https://github.com/Neural-Node/CSCD350-Spotify_Curation_Site/assets/97580466/1cbc1c18-c51a-448f-aa9f-7411de0403cb" alt=”my banner”>
 
 On the homepage after logging in, on the top of the page, there is a button titled “Your Profile” which will take you to a new page that displays your account information in fields such as; User ID, Email, Spotify URI, the link to your Spotify profile, and your profiles image.  
 
