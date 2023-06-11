@@ -2,9 +2,26 @@
 //var client_id= "";
 //var client_secret = "";
 
-
 const AUTHORIZE = "https://accounts.spotify.com/authorize"
 const TOKEN ="https://accounts.spotify.com/api/token";
+
+function requestAuthorization(){
+    client_id = "37105f8a5dea4697bc0953aa8220272c"; // will reference your app's client_id
+    client_secret = "c82bd04155fc489f9078f1c9dbfd0831"; // will reference your app's client_secret
+    let redirect_uri = "http://localhost://63342/CSCD350-Spotify_Curation_Site/index.html/callback" //local host value
+
+    //Store client_id and client secret in local storage
+    localStorage.setItem("client_id", client_id);
+    localStorage.setItem("client_secret", client_secret);
+
+    let url = AUTHORIZE;
+    url += "?client_id=" + client_id;
+    url += "&response_type=code";
+    url += "&redirect_uri=" + encodeURI(redirect_uri);
+    url += "&show_dialog=true";
+    url += "&scope=user-read-private user-read-email user-modify-playback-state user-read-playback-position user-library-read streaming user-read-playback-state user-read-recently-played playlist-read-private";
+    window.location.href = url; // Show Spotify's authorization screen
+}
 
 function onPageLoad(){
     client_id = localStorage.getItem("client_id");
